@@ -830,7 +830,11 @@
       "url": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/{id}",
       "alias": "app_store_version"
     },
-
+    {
+      "http_method": "get",
+      "url": "https://api.appstoreconnect.apple.com/v1/appStoreVersions/{id}/build",
+      "alias": "app_store_version_build"
+    },
     {
       "url": "https://api.appstoreconnect.apple.com/v1/appStoreVersionLocalizations",
       "http_body_type": "Requests::V1::AppStoreVersionLocalization::Create",
